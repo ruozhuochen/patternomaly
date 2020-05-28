@@ -17,3 +17,10 @@ export declare function draw(
  * Generates an array of random patterns with the given background colors
  */
 export declare function generate(colorList: Array<string>): Array<CanvasPattern>;
+
+declare module "patternomaly/draw" {
+    export = draw;
+}
+declare module "patternomaly/generate" {
+    export = generate;
+}
