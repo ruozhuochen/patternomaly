@@ -14,6 +14,6 @@ export declare function draw(
     size?: number): CanvasPattern
 
 declare module "patternomaly/draw" {
-    export = draw;
 }
 
+export = draw;
